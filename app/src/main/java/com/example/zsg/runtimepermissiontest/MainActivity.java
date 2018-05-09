@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
                 } else {
                     call();
+                    //
                 }
 //                try {
 //                    Intent intent = new Intent(Intent.ACTION_CALL);
